@@ -98,4 +98,31 @@
 		line-height: revert;
 		font-weight: revert;
 	}
+
+	select,
+	select:disabled,
+	select:focus {
+		color: revert;
+		border: revert;
+		border-radius: revert;
+		background: revert;
+		box-shadow: revert;
+		text-shadow: revert;
+		outline: revert;
+		cursor: revert;
+		transform: revert;
+		font-size: revert;
+		line-height: revert;
+		padding: revert;
+		margin: revert;
+		min-height: revert;
+		max-width: revert;
+		-webkit-appearance: revert;
+		vertical-align: revert;
+		font-weight: revert;
+	}
+
+	select {
+		font-family: system-ui;
+	}
 }
